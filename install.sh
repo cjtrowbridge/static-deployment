@@ -13,7 +13,7 @@ apt update
 apt upgrade -y
 
 # Install and set up necessary software
-apt install -y git wget nload bashtop fail2ban apache2 mariadb-server php php-{cli,bcmath,bz2,curl,intl,gd,mbstring,mysql,zip}
+apt install -y git wget nload bashtop fail2ban apache2 mariadb-server unzip php php-{cli,bcmath,bz2,curl,intl,gd,mbstring,mysql,zip}
 mysql_secure_installation
 
 # Download the second script
